@@ -1,0 +1,296 @@
+
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-box-1 {
+    width: 100%;
+    height: 753px;
+    background-image: url(../cv/img/download.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 400px rgba(0, 0, 0, 0.9);
+}
+
+.content-1 {
+    max-width: 100%;
+    height: 753px;
+    margin: 0 15% 0 15%; 
+}
+
+
+.header {
+    width: 100%;
+    height: 63px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    z-index: 1;
+    list-style-type: none;
+    
+}
+
+
+.qq {
+    text-decoration: underline;
+
+}
+
+.box {
+    width: 12%;
+    height: 63px;   
+     font-weight: bolder;
+     font-size: 18px;
+     text-align: center;
+
+}
+
+.ww {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.ww:hover {
+    color: green;
+    
+}
+
+.content-2 {
+    width: 100%;
+    height: 375px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-2 {
+    width: 100%;
+    height: 375px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.info{
+    width: 50%;
+    height: 480px;
+}
+
+.image-box {
+    float: none;
+    text-align: center;
+    width: 100%;
+    height: 345px;
+}
+
+.image-border {
+    height: 345px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 20px solid rgba(0, 0, 0, 0.9);
+}
+
+.say-hi {
+    border-radius: 29px 20px 20px 0px;
+    background-color:#0bceaf ;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+.pp {
+    margin:10px 0;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.uu {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+
+.list-style{
+    list-style-type: none; 
+    height: 120px; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mm {
+    margin:10px 0;
+    float: left;
+}
+
+.icon-color {
+    color:grey;
+}
+
+.icon-color:hover {
+    color: green;
+}
+
+.link-style {
+    text-decoration-line: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 14px;
+   margin-left: 10px;
+}
+
+.kk {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+
+
+
+.size-box {
+    width: 30px;
+    height: 20px;
+  
+}
+
+.content-box-2 {
+    width: 100%;
+    height: 753px;
+    background-color: #100e17;
+}
+
+.big-box {
+    max-width: 100%;
+    height: 753px;
+    margin: 0 15% 0 15%;
+    display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+}
+
+.bro-box-1 {
+    width: 100%;
+    height: 377px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.bro-box-2 {
+    width: 100%;
+    height: 377px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.child-box-1 {
+    width: 50%;
+    max-height: 375px;
+    padding:0 10px 0 10px;
+}
+
+.photo-sizer {
+    width: 90%;
+    max-height: 340px;
+}
+
+.child-box-2 {
+    width: 50%;
+    max-height: 375px;
+    padding:0 10px 0 30px;
+}
+
+.about-me {
+    font-size: 14px;
+    margin-bottom:30px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.tag-box {
+    word-break: break-all;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 66px;
+   float: left;
+}
+
+
+.list-leader {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0;
+}
+
+.nn {
+    border: 1px solid #0bceaf;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.down-but {
+    margin-top: 10px;
+    background-color: #0bceaf;
+    cursor: pointer;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: bolder;
+   text-decoration-line: none;
+   color: grey;
+}
+
+.ss {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    margin:0 0 21px 0;
+}
+
+
+.king-box {
+    width: 100%;
+    height: 230px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;   
+  justify-content: space-around;
+}
+
+.heir-box {
+    width: 28%;
+    max-height: 230px;
+    padding: 20px;
+    background-color: #202026;
+}
